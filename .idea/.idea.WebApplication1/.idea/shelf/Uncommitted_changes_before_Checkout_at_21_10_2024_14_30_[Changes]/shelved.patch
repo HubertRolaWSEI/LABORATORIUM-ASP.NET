@@ -1,0 +1,276 @@
+Index: WebApplication1/obj/Debug/net8.0/WebApplication1.GeneratedMSBuildEditorConfig.editorconfig
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>is_global = true\r\nbuild_property.TargetFramework = net8.0\r\nbuild_property.TargetPlatformMinVersion = \r\nbuild_property.UsingMicrosoftNETSdkWeb = true\r\nbuild_property.ProjectTypeGuids = \r\nbuild_property.InvariantGlobalization = \r\nbuild_property.PlatformNeutralAssembly = \r\nbuild_property.EnforceExtendedAnalyzerRules = \r\nbuild_property._SupportedPlatformList = Linux,macOS,Windows\r\nbuild_property.RootNamespace = WebApplication1\r\nbuild_property.RootNamespace = WebApplication1\r\nbuild_property.ProjectDir = D:\\Users\\hubert.rola\\RiderProjects\\WebApplication1\\WebApplication1\\\r\nbuild_property.EnableComHosting = \r\nbuild_property.EnableGeneratedComInterfaceComImportInterop = \r\nbuild_property.RazorLangVersion = 8.0\r\nbuild_property.SupportLocalizedComponentNames = \r\nbuild_property.GenerateRazorMetadataSourceChecksumAttributes = \r\nbuild_property.MSBuildProjectDirectory = D:\\Users\\hubert.rola\\RiderProjects\\WebApplication1\\WebApplication1\r\nbuild_property._RazorSourceGeneratorDebug = \r\n\r\n[D:/Users/hubert.rola/RiderProjects/WebApplication1/WebApplication1/Views/Home/Index.cshtml]\r\nbuild_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=\r\nbuild_metadata.AdditionalFiles.CssScope = \r\n\r\n[D:/Users/hubert.rola/RiderProjects/WebApplication1/WebApplication1/Views/Home/Privacy.cshtml]\r\nbuild_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==\r\nbuild_metadata.AdditionalFiles.CssScope = \r\n\r\n[D:/Users/hubert.rola/RiderProjects/WebApplication1/WebApplication1/Views/Shared/Error.cshtml]\r\nbuild_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==\r\nbuild_metadata.AdditionalFiles.CssScope = \r\n\r\n[D:/Users/hubert.rola/RiderProjects/WebApplication1/WebApplication1/Views/Shared/_ValidationScriptsPartial.cshtml]\r\nbuild_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s\r\nbuild_metadata.AdditionalFiles.CssScope = \r\n\r\n[D:/Users/hubert.rola/RiderProjects/WebApplication1/WebApplication1/Views/_ViewImports.cshtml]\r\nbuild_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==\r\nbuild_metadata.AdditionalFiles.CssScope = \r\n\r\n[D:/Users/hubert.rola/RiderProjects/WebApplication1/WebApplication1/Views/_ViewStart.cshtml]\r\nbuild_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=\r\nbuild_metadata.AdditionalFiles.CssScope = \r\n\r\n[D:/Users/hubert.rola/RiderProjects/WebApplication1/WebApplication1/Views/Shared/_Layout.cshtml]\r\nbuild_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s\r\nbuild_metadata.AdditionalFiles.CssScope = b-bddmc6yalx\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/WebApplication1/obj/Debug/net8.0/WebApplication1.GeneratedMSBuildEditorConfig.editorconfig b/WebApplication1/obj/Debug/net8.0/WebApplication1.GeneratedMSBuildEditorConfig.editorconfig
+--- a/WebApplication1/obj/Debug/net8.0/WebApplication1.GeneratedMSBuildEditorConfig.editorconfig	(revision d1e9ecfb7d20a98cc5378421ff4b1a36d0028793)
++++ b/WebApplication1/obj/Debug/net8.0/WebApplication1.GeneratedMSBuildEditorConfig.editorconfig	(date 1729513822982)
+@@ -9,39 +9,39 @@
+ build_property._SupportedPlatformList = Linux,macOS,Windows
+ build_property.RootNamespace = WebApplication1
+ build_property.RootNamespace = WebApplication1
+-build_property.ProjectDir = D:\Users\hubert.rola\RiderProjects\WebApplication1\WebApplication1\
++build_property.ProjectDir = C:\Users\Hubert\RiderProjects\LABORATORIUM-ASP.NET\WebApplication1\
+ build_property.EnableComHosting = 
+ build_property.EnableGeneratedComInterfaceComImportInterop = 
+ build_property.RazorLangVersion = 8.0
+ build_property.SupportLocalizedComponentNames = 
+ build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+-build_property.MSBuildProjectDirectory = D:\Users\hubert.rola\RiderProjects\WebApplication1\WebApplication1
++build_property.MSBuildProjectDirectory = C:\Users\Hubert\RiderProjects\LABORATORIUM-ASP.NET\WebApplication1
+ build_property._RazorSourceGeneratorDebug = 
+ 
+-[D:/Users/hubert.rola/RiderProjects/WebApplication1/WebApplication1/Views/Home/Index.cshtml]
++[C:/Users/Hubert/RiderProjects/LABORATORIUM-ASP.NET/WebApplication1/Views/Home/Index.cshtml]
+ build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+ build_metadata.AdditionalFiles.CssScope = 
+ 
+-[D:/Users/hubert.rola/RiderProjects/WebApplication1/WebApplication1/Views/Home/Privacy.cshtml]
++[C:/Users/Hubert/RiderProjects/LABORATORIUM-ASP.NET/WebApplication1/Views/Home/Privacy.cshtml]
+ build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+ build_metadata.AdditionalFiles.CssScope = 
+ 
+-[D:/Users/hubert.rola/RiderProjects/WebApplication1/WebApplication1/Views/Shared/Error.cshtml]
++[C:/Users/Hubert/RiderProjects/LABORATORIUM-ASP.NET/WebApplication1/Views/Shared/Error.cshtml]
+ build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+ build_metadata.AdditionalFiles.CssScope = 
+ 
+-[D:/Users/hubert.rola/RiderProjects/WebApplication1/WebApplication1/Views/Shared/_ValidationScriptsPartial.cshtml]
++[C:/Users/Hubert/RiderProjects/LABORATORIUM-ASP.NET/WebApplication1/Views/Shared/_ValidationScriptsPartial.cshtml]
+ build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+ build_metadata.AdditionalFiles.CssScope = 
+ 
+-[D:/Users/hubert.rola/RiderProjects/WebApplication1/WebApplication1/Views/_ViewImports.cshtml]
++[C:/Users/Hubert/RiderProjects/LABORATORIUM-ASP.NET/WebApplication1/Views/_ViewImports.cshtml]
+ build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+ build_metadata.AdditionalFiles.CssScope = 
+ 
+-[D:/Users/hubert.rola/RiderProjects/WebApplication1/WebApplication1/Views/_ViewStart.cshtml]
++[C:/Users/Hubert/RiderProjects/LABORATORIUM-ASP.NET/WebApplication1/Views/_ViewStart.cshtml]
+ build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+ build_metadata.AdditionalFiles.CssScope = 
+ 
+-[D:/Users/hubert.rola/RiderProjects/WebApplication1/WebApplication1/Views/Shared/_Layout.cshtml]
++[C:/Users/Hubert/RiderProjects/LABORATORIUM-ASP.NET/WebApplication1/Views/Shared/_Layout.cshtml]
+ build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+ build_metadata.AdditionalFiles.CssScope = b-bddmc6yalx
+Index: WebApplication1/obj/project.packagespec.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\"restore\":{\"projectUniqueName\":\"D:\\\\Users\\\\hubert.rola\\\\RiderProjects\\\\WebApplication1\\\\WebApplication1\\\\WebApplication1.csproj\",\"projectName\":\"WebApplication1\",\"projectPath\":\"D:\\\\Users\\\\hubert.rola\\\\RiderProjects\\\\WebApplication1\\\\WebApplication1\\\\WebApplication1.csproj\",\"outputPath\":\"D:\\\\Users\\\\hubert.rola\\\\RiderProjects\\\\WebApplication1\\\\WebApplication1\\\\obj\\\\\",\"projectStyle\":\"PackageReference\",\"originalTargetFrameworks\":[\"net8.0\"],\"sources\":{\"C:\\\\Program Files (x86)\\\\Microsoft SDKs\\\\NuGetPackages\\\\\":{},\"https://api.nuget.org/v3/index.json\":{}},\"frameworks\":{\"net8.0\":{\"targetAlias\":\"net8.0\",\"projectReferences\":{}}},\"warningProperties\":{\"warnAsError\":[\"NU1605\"]}}\"frameworks\":{\"net8.0\":{\"targetAlias\":\"net8.0\",\"imports\":[\"net461\",\"net462\",\"net47\",\"net471\",\"net472\",\"net48\",\"net481\"],\"assetTargetFallback\":true,\"warn\":true,\"frameworkReferences\":{\"Microsoft.AspNetCore.App\":{\"privateAssets\":\"none\"},\"Microsoft.NETCore.App\":{\"privateAssets\":\"all\"}},\"runtimeIdentifierGraphPath\":\"C:\\\\Program Files\\\\dotnet\\\\sdk\\\\8.0.400/PortableRuntimeIdentifierGraph.json\"}}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/WebApplication1/obj/project.packagespec.json b/WebApplication1/obj/project.packagespec.json
+--- a/WebApplication1/obj/project.packagespec.json	(revision d1e9ecfb7d20a98cc5378421ff4b1a36d0028793)
++++ b/WebApplication1/obj/project.packagespec.json	(date 1729513823322)
+@@ -1,1 +1,1 @@
+-"restore":{"projectUniqueName":"D:\\Users\\hubert.rola\\RiderProjects\\WebApplication1\\WebApplication1\\WebApplication1.csproj","projectName":"WebApplication1","projectPath":"D:\\Users\\hubert.rola\\RiderProjects\\WebApplication1\\WebApplication1\\WebApplication1.csproj","outputPath":"D:\\Users\\hubert.rola\\RiderProjects\\WebApplication1\\WebApplication1\\obj\\","projectStyle":"PackageReference","originalTargetFrameworks":["net8.0"],"sources":{"C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\":{},"https://api.nuget.org/v3/index.json":{}},"frameworks":{"net8.0":{"targetAlias":"net8.0","projectReferences":{}}},"warningProperties":{"warnAsError":["NU1605"]}}"frameworks":{"net8.0":{"targetAlias":"net8.0","imports":["net461","net462","net47","net471","net472","net48","net481"],"assetTargetFallback":true,"warn":true,"frameworkReferences":{"Microsoft.AspNetCore.App":{"privateAssets":"none"},"Microsoft.NETCore.App":{"privateAssets":"all"}},"runtimeIdentifierGraphPath":"C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"}}
+\ No newline at end of file
++"restore":{"projectUniqueName":"C:\\Users\\Hubert\\RiderProjects\\LABORATORIUM-ASP.NET\\WebApplication1\\WebApplication1.csproj","projectName":"WebApplication1","projectPath":"C:\\Users\\Hubert\\RiderProjects\\LABORATORIUM-ASP.NET\\WebApplication1\\WebApplication1.csproj","outputPath":"C:\\Users\\Hubert\\RiderProjects\\LABORATORIUM-ASP.NET\\WebApplication1\\obj\\","projectStyle":"PackageReference","fallbackFolders":["C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"],"originalTargetFrameworks":["net8.0"],"sources":{"C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\":{},"C:\\Program Files\\dotnet\\library-packs":{},"https://api.nuget.org/v3/index.json":{}},"frameworks":{"net8.0":{"targetAlias":"net8.0","projectReferences":{}}},"warningProperties":{"warnAsError":["NU1605"]},"restoreAuditProperties":{"enableAudit":"true","auditLevel":"low","auditMode":"direct"}}"frameworks":{"net8.0":{"targetAlias":"net8.0","imports":["net461","net462","net47","net471","net472","net48","net481"],"assetTargetFallback":true,"warn":true,"frameworkReferences":{"Microsoft.AspNetCore.App":{"privateAssets":"none"},"Microsoft.NETCore.App":{"privateAssets":"all"}},"runtimeIdentifierGraphPath":"C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"}}
+\ No newline at end of file
+Index: WebApplication1/obj/WebApplication1.csproj.nuget.dgspec.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\r\n  \"format\": 1,\r\n  \"restore\": {\r\n    \"D:\\\\Users\\\\hubert.rola\\\\RiderProjects\\\\WebApplication1\\\\WebApplication1\\\\WebApplication1.csproj\": {}\r\n  },\r\n  \"projects\": {\r\n    \"D:\\\\Users\\\\hubert.rola\\\\RiderProjects\\\\WebApplication1\\\\WebApplication1\\\\WebApplication1.csproj\": {\r\n      \"version\": \"1.0.0\",\r\n      \"restore\": {\r\n        \"projectUniqueName\": \"D:\\\\Users\\\\hubert.rola\\\\RiderProjects\\\\WebApplication1\\\\WebApplication1\\\\WebApplication1.csproj\",\r\n        \"projectName\": \"WebApplication1\",\r\n        \"projectPath\": \"D:\\\\Users\\\\hubert.rola\\\\RiderProjects\\\\WebApplication1\\\\WebApplication1\\\\WebApplication1.csproj\",\r\n        \"packagesPath\": \"D:\\\\Users\\\\hubert.rola\\\\.nuget\\\\packages\\\\\",\r\n        \"outputPath\": \"D:\\\\Users\\\\hubert.rola\\\\RiderProjects\\\\WebApplication1\\\\WebApplication1\\\\obj\\\\\",\r\n        \"projectStyle\": \"PackageReference\",\r\n        \"configFilePaths\": [\r\n          \"D:\\\\Users\\\\hubert.rola\\\\AppData\\\\Roaming\\\\NuGet\\\\NuGet.Config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\Microsoft.VisualStudio.Offline.config\"\r\n        ],\r\n        \"originalTargetFrameworks\": [\r\n          \"net8.0\"\r\n        ],\r\n        \"sources\": {\r\n          \"C:\\\\Program Files (x86)\\\\Microsoft SDKs\\\\NuGetPackages\\\\\": {},\r\n          \"https://api.nuget.org/v3/index.json\": {}\r\n        },\r\n        \"frameworks\": {\r\n          \"net8.0\": {\r\n            \"targetAlias\": \"net8.0\",\r\n            \"projectReferences\": {}\r\n          }\r\n        },\r\n        \"warningProperties\": {\r\n          \"warnAsError\": [\r\n            \"NU1605\"\r\n          ]\r\n        }\r\n      },\r\n      \"frameworks\": {\r\n        \"net8.0\": {\r\n          \"targetAlias\": \"net8.0\",\r\n          \"imports\": [\r\n            \"net461\",\r\n            \"net462\",\r\n            \"net47\",\r\n            \"net471\",\r\n            \"net472\",\r\n            \"net48\",\r\n            \"net481\"\r\n          ],\r\n          \"assetTargetFallback\": true,\r\n          \"warn\": true,\r\n          \"frameworkReferences\": {\r\n            \"Microsoft.AspNetCore.App\": {\r\n              \"privateAssets\": \"none\"\r\n            },\r\n            \"Microsoft.NETCore.App\": {\r\n              \"privateAssets\": \"all\"\r\n            }\r\n          },\r\n          \"runtimeIdentifierGraphPath\": \"C:\\\\Program Files\\\\dotnet\\\\sdk\\\\8.0.400/PortableRuntimeIdentifierGraph.json\"\r\n        }\r\n      }\r\n    }\r\n  }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/WebApplication1/obj/WebApplication1.csproj.nuget.dgspec.json b/WebApplication1/obj/WebApplication1.csproj.nuget.dgspec.json
+--- a/WebApplication1/obj/WebApplication1.csproj.nuget.dgspec.json	(revision d1e9ecfb7d20a98cc5378421ff4b1a36d0028793)
++++ b/WebApplication1/obj/WebApplication1.csproj.nuget.dgspec.json	(date 1729513825868)
+@@ -1,20 +1,24 @@
+ {
+   "format": 1,
+   "restore": {
+-    "D:\\Users\\hubert.rola\\RiderProjects\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {}
++    "C:\\Users\\Hubert\\RiderProjects\\LABORATORIUM-ASP.NET\\WebApplication1\\WebApplication1.csproj": {}
+   },
+   "projects": {
+-    "D:\\Users\\hubert.rola\\RiderProjects\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {
++    "C:\\Users\\Hubert\\RiderProjects\\LABORATORIUM-ASP.NET\\WebApplication1\\WebApplication1.csproj": {
+       "version": "1.0.0",
+       "restore": {
+-        "projectUniqueName": "D:\\Users\\hubert.rola\\RiderProjects\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
++        "projectUniqueName": "C:\\Users\\Hubert\\RiderProjects\\LABORATORIUM-ASP.NET\\WebApplication1\\WebApplication1.csproj",
+         "projectName": "WebApplication1",
+-        "projectPath": "D:\\Users\\hubert.rola\\RiderProjects\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+-        "packagesPath": "D:\\Users\\hubert.rola\\.nuget\\packages\\",
+-        "outputPath": "D:\\Users\\hubert.rola\\RiderProjects\\WebApplication1\\WebApplication1\\obj\\",
++        "projectPath": "C:\\Users\\Hubert\\RiderProjects\\LABORATORIUM-ASP.NET\\WebApplication1\\WebApplication1.csproj",
++        "packagesPath": "C:\\Users\\Hubert\\.nuget\\packages\\",
++        "outputPath": "C:\\Users\\Hubert\\RiderProjects\\LABORATORIUM-ASP.NET\\WebApplication1\\obj\\",
+         "projectStyle": "PackageReference",
++        "fallbackFolders": [
++          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
++        ],
+         "configFilePaths": [
+-          "D:\\Users\\hubert.rola\\AppData\\Roaming\\NuGet\\NuGet.Config",
++          "C:\\Users\\Hubert\\AppData\\Roaming\\NuGet\\NuGet.Config",
++          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+         ],
+         "originalTargetFrameworks": [
+@@ -22,6 +26,7 @@
+         ],
+         "sources": {
+           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
++          "C:\\Program Files\\dotnet\\library-packs": {},
+           "https://api.nuget.org/v3/index.json": {}
+         },
+         "frameworks": {
+@@ -34,6 +39,11 @@
+           "warnAsError": [
+             "NU1605"
+           ]
++        },
++        "restoreAuditProperties": {
++          "enableAudit": "true",
++          "auditLevel": "low",
++          "auditMode": "direct"
+         }
+       },
+       "frameworks": {
+@@ -58,7 +68,7 @@
+               "privateAssets": "all"
+             }
+           },
+-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
++          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+         }
+       }
+     }
+Index: WebApplication1/obj/rider.project.restore.info
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>17283812744003313
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/WebApplication1/obj/rider.project.restore.info b/WebApplication1/obj/rider.project.restore.info
+--- a/WebApplication1/obj/rider.project.restore.info	(revision d1e9ecfb7d20a98cc5378421ff4b1a36d0028793)
++++ b/WebApplication1/obj/rider.project.restore.info	(date 1729513825886)
+@@ -1,1 +1,1 @@
+-17283812744003313
+\ No newline at end of file
++17295138258687047
+\ No newline at end of file
+Index: WebApplication1/obj/WebApplication1.csproj.nuget.g.props
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>\r\n<Project ToolsVersion=\"14.0\" xmlns=\"http://schemas.microsoft.com/developer/msbuild/2003\">\r\n  <PropertyGroup Condition=\" '$(ExcludeRestorePackageImports)' != 'true' \">\r\n    <RestoreSuccess Condition=\" '$(RestoreSuccess)' == '' \">True</RestoreSuccess>\r\n    <RestoreTool Condition=\" '$(RestoreTool)' == '' \">NuGet</RestoreTool>\r\n    <ProjectAssetsFile Condition=\" '$(ProjectAssetsFile)' == '' \">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>\r\n    <NuGetPackageRoot Condition=\" '$(NuGetPackageRoot)' == '' \">$(UserProfile)\\.nuget\\packages\\</NuGetPackageRoot>\r\n    <NuGetPackageFolders Condition=\" '$(NuGetPackageFolders)' == '' \">D:\\Users\\hubert.rola\\.nuget\\packages\\</NuGetPackageFolders>\r\n    <NuGetProjectStyle Condition=\" '$(NuGetProjectStyle)' == '' \">PackageReference</NuGetProjectStyle>\r\n    <NuGetToolVersion Condition=\" '$(NuGetToolVersion)' == '' \">6.9.1</NuGetToolVersion>\r\n  </PropertyGroup>\r\n  <ItemGroup Condition=\" '$(ExcludeRestorePackageImports)' != 'true' \">\r\n    <SourceRoot Include=\"D:\\Users\\hubert.rola\\.nuget\\packages\\\" />\r\n  </ItemGroup>\r\n</Project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/WebApplication1/obj/WebApplication1.csproj.nuget.g.props b/WebApplication1/obj/WebApplication1.csproj.nuget.g.props
+--- a/WebApplication1/obj/WebApplication1.csproj.nuget.g.props	(revision d1e9ecfb7d20a98cc5378421ff4b1a36d0028793)
++++ b/WebApplication1/obj/WebApplication1.csproj.nuget.g.props	(date 1729513825851)
+@@ -5,11 +5,12 @@
+     <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+     <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+-    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">D:\Users\hubert.rola\.nuget\packages\</NuGetPackageFolders>
++    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\Hubert\.nuget\packages\;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages</NuGetPackageFolders>
+     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+-    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.9.1</NuGetToolVersion>
++    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.10.1</NuGetToolVersion>
+   </PropertyGroup>
+   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+-    <SourceRoot Include="D:\Users\hubert.rola\.nuget\packages\" />
++    <SourceRoot Include="C:\Users\Hubert\.nuget\packages\" />
++    <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
+   </ItemGroup>
+ </Project>
+\ No newline at end of file
+Index: WebApplication1/obj/project.assets.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\r\n  \"version\": 3,\r\n  \"targets\": {\r\n    \"net8.0\": {}\r\n  },\r\n  \"libraries\": {},\r\n  \"projectFileDependencyGroups\": {\r\n    \"net8.0\": []\r\n  },\r\n  \"packageFolders\": {\r\n    \"D:\\\\Users\\\\hubert.rola\\\\.nuget\\\\packages\\\\\": {}\r\n  },\r\n  \"project\": {\r\n    \"version\": \"1.0.0\",\r\n    \"restore\": {\r\n      \"projectUniqueName\": \"D:\\\\Users\\\\hubert.rola\\\\RiderProjects\\\\WebApplication1\\\\WebApplication1\\\\WebApplication1.csproj\",\r\n      \"projectName\": \"WebApplication1\",\r\n      \"projectPath\": \"D:\\\\Users\\\\hubert.rola\\\\RiderProjects\\\\WebApplication1\\\\WebApplication1\\\\WebApplication1.csproj\",\r\n      \"packagesPath\": \"D:\\\\Users\\\\hubert.rola\\\\.nuget\\\\packages\\\\\",\r\n      \"outputPath\": \"D:\\\\Users\\\\hubert.rola\\\\RiderProjects\\\\WebApplication1\\\\WebApplication1\\\\obj\\\\\",\r\n      \"projectStyle\": \"PackageReference\",\r\n      \"configFilePaths\": [\r\n        \"D:\\\\Users\\\\hubert.rola\\\\AppData\\\\Roaming\\\\NuGet\\\\NuGet.Config\",\r\n        \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\Microsoft.VisualStudio.Offline.config\"\r\n      ],\r\n      \"originalTargetFrameworks\": [\r\n        \"net8.0\"\r\n      ],\r\n      \"sources\": {\r\n        \"C:\\\\Program Files (x86)\\\\Microsoft SDKs\\\\NuGetPackages\\\\\": {},\r\n        \"https://api.nuget.org/v3/index.json\": {}\r\n      },\r\n      \"frameworks\": {\r\n        \"net8.0\": {\r\n          \"targetAlias\": \"net8.0\",\r\n          \"projectReferences\": {}\r\n        }\r\n      },\r\n      \"warningProperties\": {\r\n        \"warnAsError\": [\r\n          \"NU1605\"\r\n        ]\r\n      }\r\n    },\r\n    \"frameworks\": {\r\n      \"net8.0\": {\r\n        \"targetAlias\": \"net8.0\",\r\n        \"imports\": [\r\n          \"net461\",\r\n          \"net462\",\r\n          \"net47\",\r\n          \"net471\",\r\n          \"net472\",\r\n          \"net48\",\r\n          \"net481\"\r\n        ],\r\n        \"assetTargetFallback\": true,\r\n        \"warn\": true,\r\n        \"frameworkReferences\": {\r\n          \"Microsoft.AspNetCore.App\": {\r\n            \"privateAssets\": \"none\"\r\n          },\r\n          \"Microsoft.NETCore.App\": {\r\n            \"privateAssets\": \"all\"\r\n          }\r\n        },\r\n        \"runtimeIdentifierGraphPath\": \"C:\\\\Program Files\\\\dotnet\\\\sdk\\\\8.0.400/PortableRuntimeIdentifierGraph.json\"\r\n      }\r\n    }\r\n  }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/WebApplication1/obj/project.assets.json b/WebApplication1/obj/project.assets.json
+--- a/WebApplication1/obj/project.assets.json	(revision d1e9ecfb7d20a98cc5378421ff4b1a36d0028793)
++++ b/WebApplication1/obj/project.assets.json	(date 1729513825859)
+@@ -8,19 +8,24 @@
+     "net8.0": []
+   },
+   "packageFolders": {
+-    "D:\\Users\\hubert.rola\\.nuget\\packages\\": {}
++    "C:\\Users\\Hubert\\.nuget\\packages\\": {},
++    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+   },
+   "project": {
+     "version": "1.0.0",
+     "restore": {
+-      "projectUniqueName": "D:\\Users\\hubert.rola\\RiderProjects\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
++      "projectUniqueName": "C:\\Users\\Hubert\\RiderProjects\\LABORATORIUM-ASP.NET\\WebApplication1\\WebApplication1.csproj",
+       "projectName": "WebApplication1",
+-      "projectPath": "D:\\Users\\hubert.rola\\RiderProjects\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+-      "packagesPath": "D:\\Users\\hubert.rola\\.nuget\\packages\\",
+-      "outputPath": "D:\\Users\\hubert.rola\\RiderProjects\\WebApplication1\\WebApplication1\\obj\\",
++      "projectPath": "C:\\Users\\Hubert\\RiderProjects\\LABORATORIUM-ASP.NET\\WebApplication1\\WebApplication1.csproj",
++      "packagesPath": "C:\\Users\\Hubert\\.nuget\\packages\\",
++      "outputPath": "C:\\Users\\Hubert\\RiderProjects\\LABORATORIUM-ASP.NET\\WebApplication1\\obj\\",
+       "projectStyle": "PackageReference",
++      "fallbackFolders": [
++        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
++      ],
+       "configFilePaths": [
+-        "D:\\Users\\hubert.rola\\AppData\\Roaming\\NuGet\\NuGet.Config",
++        "C:\\Users\\Hubert\\AppData\\Roaming\\NuGet\\NuGet.Config",
++        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+       ],
+       "originalTargetFrameworks": [
+@@ -28,6 +33,7 @@
+       ],
+       "sources": {
+         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
++        "C:\\Program Files\\dotnet\\library-packs": {},
+         "https://api.nuget.org/v3/index.json": {}
+       },
+       "frameworks": {
+@@ -40,6 +46,11 @@
+         "warnAsError": [
+           "NU1605"
+         ]
++      },
++      "restoreAuditProperties": {
++        "enableAudit": "true",
++        "auditLevel": "low",
++        "auditMode": "direct"
+       }
+     },
+     "frameworks": {
+@@ -64,7 +75,7 @@
+             "privateAssets": "all"
+           }
+         },
+-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
++        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+       }
+     }
+   }
+Index: WebApplication1/obj/Debug/net8.0/WebApplication1.AssemblyInfo.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>//------------------------------------------------------------------------------\r\n// <auto-generated>\r\n//     This code was generated by a tool.\r\n//\r\n//     Changes to this file may cause incorrect behavior and will be lost if\r\n//     the code is regenerated.\r\n// </auto-generated>\r\n//------------------------------------------------------------------------------\r\n\r\nusing System;\r\nusing System.Reflection;\r\n\r\n[assembly: System.Reflection.AssemblyCompanyAttribute(\"WebApplication1\")]\r\n[assembly: System.Reflection.AssemblyConfigurationAttribute(\"Debug\")]\r\n[assembly: System.Reflection.AssemblyFileVersionAttribute(\"1.0.0.0\")]\r\n[assembly: System.Reflection.AssemblyInformationalVersionAttribute(\"1.0.0\")]\r\n[assembly: System.Reflection.AssemblyProductAttribute(\"WebApplication1\")]\r\n[assembly: System.Reflection.AssemblyTitleAttribute(\"WebApplication1\")]\r\n[assembly: System.Reflection.AssemblyVersionAttribute(\"1.0.0.0\")]\r\n\r\n// Wygenerowane przez klasę WriteCodeFragment programu MSBuild.\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/WebApplication1/obj/Debug/net8.0/WebApplication1.AssemblyInfo.cs b/WebApplication1/obj/Debug/net8.0/WebApplication1.AssemblyInfo.cs
+--- a/WebApplication1/obj/Debug/net8.0/WebApplication1.AssemblyInfo.cs	(revision d1e9ecfb7d20a98cc5378421ff4b1a36d0028793)
++++ b/WebApplication1/obj/Debug/net8.0/WebApplication1.AssemblyInfo.cs	(date 1729513823033)
+@@ -13,7 +13,7 @@
+ [assembly: System.Reflection.AssemblyCompanyAttribute("WebApplication1")]
+ [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+ [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
++[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d1e9ecfb7d20a98cc5378421ff4b1a36d0028793")]
+ [assembly: System.Reflection.AssemblyProductAttribute("WebApplication1")]
+ [assembly: System.Reflection.AssemblyTitleAttribute("WebApplication1")]
+ [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
