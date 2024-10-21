@@ -1,3 +1,5 @@
+using WebApplication1.Controllers;
+
 namespace WebApplication1.Models
 {
     public class Calculator
@@ -26,9 +28,30 @@ namespace WebApplication1.Models
             }
         }
 
+        public string ErrorMessage;
+
         public bool IsValid()
         {
-            return Operator != null && X != null && Y != null;
+            if (X is null)
+            {
+                ErrorMessage = "Podaj parametr X";
+                return false;
+            }
+
+            if (Y is null)
+            {
+                ErrorMessage = "Podaj parametr Y";
+                return false;
+            }
+
+            if (Operator is null)
+            {
+                ErrorMessage = "Podaj operator";
+                return false;
+            }
+
+
+            return true;
         }
 
         public double Calculate()

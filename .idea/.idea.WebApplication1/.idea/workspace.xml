@@ -10,16 +10,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37d5cda4-1caa-4ef7-ad26-6a7f55555374" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/WebApplication1/Models/Calculator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/Controllers/BirthController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/Models/Birth.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/Views/Birth/Error.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/Views/Birth/Form.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/Views/Birth/Result.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/Views/Calculator/Error.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApplication1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication1/Controllers/CalculatorController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/Controllers/CalculatorController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/Models/Calculator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/Models/Calculator.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication1/Views/Calculator/Form.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/Views/Calculator/Form.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication1/Views/Calculator/Result.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/Views/Calculator/Result.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/Views/Shared/_Layout.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication1/bin/Debug/net8.0/WebApplication1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/bin/Debug/net8.0/WebApplication1.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication1/bin/Debug/net8.0/WebApplication1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/bin/Debug/net8.0/WebApplication1.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication1/bin/Debug/net8.0/WebApplication1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/bin/Debug/net8.0/WebApplication1.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication1/obj/Debug/net8.0/WebApplication1.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/obj/Debug/net8.0/WebApplication1.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication1/obj/Debug/net8.0/WebApplication1.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/obj/Debug/net8.0/WebApplication1.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/obj/Debug/net8.0/WebApplication1.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/obj/Debug/net8.0/WebApplication1.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication1/obj/Debug/net8.0/WebApplication1.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/obj/Debug/net8.0/WebApplication1.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication1/obj/Debug/net8.0/WebApplication1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/obj/Debug/net8.0/WebApplication1.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication1/obj/Debug/net8.0/WebApplication1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/obj/Debug/net8.0/WebApplication1.pdb" afterDir="false" />
@@ -139,7 +147,7 @@
       <option name="presentableId" value="Default" />
       <updated>1729513822328</updated>
       <workItem from="1729513823855" duration="108000" />
-      <workItem from="1729513939883" duration="1092000" />
+      <workItem from="1729513939883" duration="2630000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <option name="closed" value="true" />
@@ -165,7 +173,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729514327193</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="commit">
+      <option name="closed" value="true" />
+      <created>1729515216828</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1729515216828</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

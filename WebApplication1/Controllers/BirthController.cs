@@ -3,17 +3,16 @@ using WebApplication1.Models;
 
 namespace WebApplication1.Controllers
 {
-    [Route("Calculator")]
-    public class CalculatorController : Controller
+    public class BirthController : Controller
     {
-        [HttpGet("")]
+        [HttpGet]
         public IActionResult Form()
         {
             return View();
         }
 
-        [HttpPost("Result")]
-        public IActionResult Result([FromForm] Calculator model)
+        [HttpPost]
+        public IActionResult Result([FromForm] Birth model)
         {
             if (!model.IsValid())
             {
