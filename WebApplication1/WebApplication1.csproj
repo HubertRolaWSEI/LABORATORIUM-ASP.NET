@@ -6,4 +6,13 @@
         <ImplicitUsings>enable</ImplicitUsings>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Folder Include="Pages\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <AdditionalFiles Include="Views\Contact\Add.cshtml" />
+      <AdditionalFiles Include="Views\Contact\Index.cshtml" />
+    </ItemGroup>
+
 </Project>

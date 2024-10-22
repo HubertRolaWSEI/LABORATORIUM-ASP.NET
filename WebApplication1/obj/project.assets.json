@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\hubert.rola\\RiderProjects\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+      "projectUniqueName": "D:\\Users\\hubert.rola\\RiderProjects\\LABORATORIUM-ASP.NET\\WebApplication1\\WebApplication1.csproj",
       "projectName": "WebApplication1",
-      "projectPath": "D:\\Users\\hubert.rola\\RiderProjects\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+      "projectPath": "D:\\Users\\hubert.rola\\RiderProjects\\LABORATORIUM-ASP.NET\\WebApplication1\\WebApplication1.csproj",
       "packagesPath": "D:\\Users\\hubert.rola\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\hubert.rola\\RiderProjects\\WebApplication1\\WebApplication1\\obj\\",
+      "outputPath": "D:\\Users\\hubert.rola\\RiderProjects\\LABORATORIUM-ASP.NET\\WebApplication1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "D:\\Users\\hubert.rola\\AppData\\Roaming\\NuGet\\NuGet.Config",
