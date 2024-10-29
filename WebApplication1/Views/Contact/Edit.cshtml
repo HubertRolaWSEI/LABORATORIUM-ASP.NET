@@ -1,10 +1,8 @@
-@model WebApplication1.Models.ContactModel
+@model TModel
 
 @{
-    ViewBag.Title = "title";
-    Layout = "_Layout";
+    Layout = null;
 }
-
 <h2>Dodaj kontakt</h2>
 <div class="col-6">
     <form asp-action="Add">
@@ -37,7 +35,7 @@
             <label class="form-label" asp-for="Category"></label>
             <select class="form-control" asp-items="@Html.GetEnumSelectList<Category>()"
                     asp-for="Category">
-                
+
             </select>
             <span asp-validation-for="BirthDate" class="text-danger"></span>
         </div>
