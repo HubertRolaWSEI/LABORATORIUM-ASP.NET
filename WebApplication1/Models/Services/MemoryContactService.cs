@@ -8,7 +8,7 @@ namespace WebApplication1.Models.Services
                 1,
                 new()
                 {
-                    Id = 1, Email = "email@wsei.com", FirstName = "Jakub", LastName = "Putowski",
+                    Id = 1, Email = "email@wsei.com", FirstName = "Hubert", LastName = "Rola",
                     Category = Category.Business, BirthDate = new(1990, 11, 05), PhoneNumber = "111 111 111"
                 }
             },
@@ -16,7 +16,7 @@ namespace WebApplication1.Models.Services
                 2,
                 new()
                 {
-                    Id = 2, Email = "email1@wsei.com", FirstName = "Karol", LastName = "Kowal",
+                    Id = 2, Email = "email1@wsei.com", FirstName = "Karol", LastName = "Dominiak",
                     Category = Category.Family, BirthDate = new DateTime(1950, 03, 17), PhoneNumber = "222 222 222"
                 }
             }
