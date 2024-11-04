@@ -12,11 +12,10 @@
     <table class="table">
         <thead>
         <tr>
-            <th></th>
             <th>@Html.DisplayNameFor(m => m[0].FirstName)</th>
             <th>@Html.DisplayNameFor(m => m[0].LastName)</th>
             <th>@Html.DisplayNameFor(m => m[0].Category)</th>
-            <th></th>
+            <th>Akcje</th>
         </tr>
         </thead>
         <tbody>
@@ -25,9 +24,9 @@
             <tr>
                 <td>@entry.FirstName</td>
                 <td>@entry.LastName</td>
-                <td>@entry.Category.GetDisplayName()</td>
+                <td>@entry.Category</td>
                 <td>
-                    <a class="btn btn-success">Edytuj</a>
+                    <a asp-controller="Contact" asp-action="Edit" asp-route-id=@entry.Id class="btn btn-info">Edit</a>
                     <a asp-controller="Contact" asp-action="Details" asp-route-id=@entry.Id class="btn btn-info">Szczegóły</a>
                     <a asp-controller="Contact" asp-action="Delete" asp-route-id=@entry.Id class="btn btn-danger">Usuń</a>
                 </td>
@@ -38,5 +37,5 @@
 }
 else
 {
-    <p>Brak kontaktów</p>
+    <h1>Brak kontaktów</h1>
 }
