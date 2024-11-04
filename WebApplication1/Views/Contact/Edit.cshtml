@@ -1,6 +1,7 @@
 @model ContactModel
 
 @{
+ViewBag.Title = "Edytuj kontakt";
 Layout = "_Layout";
 }
 
@@ -36,8 +37,9 @@ Layout = "_Layout";
         <div class="mb-3">
             <label class="form-label" asp-for="Category"></label>
             <select class="form-control" asp-items="@Html.GetEnumSelectList<Category>()" asp-for="Category"></select>
-            <span asp-validation-for="Category" class="text-danger"></span>
+            <span asp-validation-for="Category"></span>
         </div>
+
         <button type="submit" class="btn btn-outline-primary">Aktualizuj</button>
     </form>
 </div>

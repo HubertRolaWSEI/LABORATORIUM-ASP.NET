@@ -1,53 +1,33 @@
 namespace WebApplication1.Models.Services
 {
-    public class MemoryContactService : IContactService
+    public class MemoryContactService : iContactService
     {
-        private Dictionary<int, ContactModel> _contacts = new()
+        private Dictionary<int, ContactModel> _contacts = new Dictionary<int, ContactModel>()
         {
             {
                 1,
-                new ContactModel
+                new()
                 {
-                    FirstName = "John",
-                    LastName = "Doe",
-                    Category = Category.Family,
-                    Id = 1,
-                    Email = "john.doe@gmail.com",
-                    PhoneNumber = "08888888888",
-                    BirthDate = new DateTime(2005, 1, 1)
+                    Id = 1, Email = "email@wsei.com", FirstName = "Jakub", LastName = "Putowski",
+                    Category = Category.Business, BirthDate = new(1990, 11, 05), PhoneNumber = "111 111 111"
                 }
             },
             {
                 2,
-                new ContactModel
+                new()
                 {
-                    FirstName = "Eve",
-                    LastName = "Fisher",
-                    Id = 2,
-                    Email = "eve.fisher@gmail.com",
-                    PhoneNumber = "088888677778",
-                    BirthDate = new DateTime(2000, 10, 2)
-                }
-            },
-            {
-                3,
-                new ContactModel
-                {
-                    FirstName = "Mark",
-                    LastName = "Hamster",
-                    Id = 3,
-                    Email = "m.hamster@gmail.com",
-                    PhoneNumber = "08882228888",
-                    BirthDate = new DateTime(1900, 10, 1)
+                    Id = 2, Email = "email1@wsei.com", FirstName = "Karol", LastName = "Kowal",
+                    Category = Category.Family, BirthDate = new DateTime(1950, 03, 17), PhoneNumber = "222 222 222"
                 }
             }
         };
 
-        private int _index = 3;
+        private int _currentId = 3;
+
 
         public void Add(ContactModel model)
         {
-            model.Id = ++_index;
+            model.Id = ++_currentId;
             _contacts.Add(model.Id, model);
         }
 
@@ -71,7 +51,8 @@ namespace WebApplication1.Models.Services
 
         public ContactModel? GetById(int id)
         {
-            return _contacts.ContainsKey(id) ? _contacts[id] : null;
+            // return _contacts.TryGetValue(id, out var contact) ? contact : null;
+            return _contacts[id];
         }
     }
 }
