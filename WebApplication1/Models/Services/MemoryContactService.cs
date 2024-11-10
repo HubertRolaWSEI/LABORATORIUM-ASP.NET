@@ -1,58 +1,53 @@
-namespace WebApplication1.Models.Services
+namespace WebApplication1.Models.Services;
+
+public class MemoryContactService:iContactService
 {
-    public class MemoryContactService : iContactService
+    private Dictionary<int, ContactModel> _contacts = new Dictionary<int, ContactModel>()
     {
-        private Dictionary<int, ContactModel> _contacts = new Dictionary<int, ContactModel>()
         {
+            1,
+            new()
             {
-                1,
-                new()
-                {
-                    Id = 1, Email = "email@wsei.com", FirstName = "Hubert", LastName = "Rola",
-                    Category = Category.Business, BirthDate = new(1990, 11, 05), PhoneNumber = "111 111 111"
-                }
-            },
-            {
-                2,
-                new()
-                {
-                    Id = 2, Email = "email1@wsei.com", FirstName = "Karol", LastName = "Dominiak",
-                    Category = Category.Family, BirthDate = new DateTime(1950, 03, 17), PhoneNumber = "222 222 222"
-                }
+                Id = 1, Email = "ascfsd@gmail.com", FirstName = "Olaf", LastName = "Ciuła", Category = Category.Family,
+                BirthDate = new DateTime(1970, 10, 10), PhoneNumber = "333 333 333"
             }
-        };
-
-        private int _currentId = 3;
-
-
-        public void Add(ContactModel model)
+        },
         {
-            model.Id = ++_currentId;
-            _contacts.Add(model.Id, model);
-        }
-
-        public void Update(ContactModel contact)
-        {
-            if (_contacts.ContainsKey(contact.Id))
+            2,
+            new()
             {
-                _contacts[contact.Id] = contact;
+                Id = 2, Email = "arfsdd@gmail.com", FirstName = "Ola", LastName = "rresgd",
+                BirthDate = new DateTime(1970, 10, 10), PhoneNumber = "333 333 333"
             }
         }
+    };
+    private int currentID = 3;
+    public void Add(ContactModel model)
+    {
+        model.Id = ++currentID;
+        _contacts.Add(model.Id, model);
+    }
 
-        public void Delete(int id)
+    public void Update(ContactModel contact)
+    {
+        if (_contacts.ContainsKey(contact.Id))
         {
-            _contacts.Remove(id);
+            _contacts[contact.Id] = contact;
         }
+    }
 
-        public List<ContactModel> GetAll()
-        {
-            return _contacts.Values.ToList();
-        }
+    public void Delete(int id)
+    {
+        _contacts.Remove(id);
+    }
 
-        public ContactModel? GetById(int id)
-        {
-            // return _contacts.TryGetValue(id, out var contact) ? contact : null;
-            return _contacts[id];
-        }
+    public List<ContactModel> GetAll()
+    {
+        return _contacts.Values.ToList();
+    }
+
+    public ContactModel? GetById(int id)
+    {
+        return _contacts[id];
     }
 }

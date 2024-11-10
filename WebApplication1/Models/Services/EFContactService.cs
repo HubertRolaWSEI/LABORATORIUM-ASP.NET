@@ -1,6 +1,6 @@
 namespace WebApplication1.Models.Services;
 
-public class EFContactService : iContactService
+public class EFContactService: iContactService
 {
     private readonly AppDbContext _context;
 
@@ -35,6 +35,6 @@ public class EFContactService : iContactService
     public ContactModel? GetById(int id)
     {
         var entity = _context.Contacts.Find(id);
-        return entity != null ? ContactMapper.FromEntity(entity) : null;
+        return entity != null? ContactMapper.FromEntity(entity) : null;
     }
 }

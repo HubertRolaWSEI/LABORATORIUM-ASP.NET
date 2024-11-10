@@ -9,11 +9,10 @@ public class ContactMapper
             Id = entity.Id,
             FirstName = entity.FirstName,
             LastName = entity.LastName,
-            Email = entity.Email,
-            PhoneNumber = entity.PhoneNumber,
             BirthDate = entity.BirthDate,
+            PhoneNumber = entity.PhoneNumber,
+            Email = entity.Email,
             Category = entity.Category
-
         };
     }
 
@@ -24,9 +23,9 @@ public class ContactMapper
             Id = model.Id,
             FirstName = model.FirstName,
             LastName = model.LastName,
-            Email = model.Email,
-            PhoneNumber = model.PhoneNumber,
             BirthDate = model.BirthDate,
+            PhoneNumber = model.PhoneNumber,
+            Email = model.Email,
             Category = model.Category
         };
     }
