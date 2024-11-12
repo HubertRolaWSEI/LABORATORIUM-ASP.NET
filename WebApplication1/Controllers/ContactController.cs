@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using WebApplication1.Models;
 using WebApplication1.Models.Services;
 
@@ -22,7 +23,17 @@ public class ContactController : Controller
 
     public ActionResult Add()
     {
-        return View();
+        var model = new ContactModel();
+        model.Orgzanizations = _contactService.FindAllOrganizations()
+            .Select(o => new SelectListItem()
+            {
+                Value = o.Id.ToString(),
+                Text = o.Name,
+                Selected = o.Id == 1
+            }).ToList();
+                
+            
+        return View(model);
     }
 
     [HttpPost]

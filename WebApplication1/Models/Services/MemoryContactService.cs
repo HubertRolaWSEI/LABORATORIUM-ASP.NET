@@ -50,4 +50,9 @@ public class MemoryContactService:iContactService
     {
         return _contacts[id];
     }
+
+    public List<OrganizationEntity> FindAllOrganizations()
+    {
+        throw new NotImplementedException();
+    }
 }
