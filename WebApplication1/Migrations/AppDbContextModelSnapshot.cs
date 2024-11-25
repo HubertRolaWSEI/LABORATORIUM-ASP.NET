@@ -45,14 +45,16 @@ namespace WebApplication1.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "10851edb-af4f-429a-8625-b75cc317020a",
-                            Name = "Admin",
+                            Id = "256028ea-6849-441a-91d7-2a45387c02a6",
+                            ConcurrencyStamp = "256028ea-6849-441a-91d7-2a45387c02a6",
+                            Name = "admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
-                            Id = "204184c3-1522-4570-ab8d-b508249ff317",
-                            Name = "User",
+                            Id = "9e9db1c7-12e2-41f2-b523-61e9949bc4df",
+                            ConcurrencyStamp = "9e9db1c7-12e2-41f2-b523-61e9949bc4df",
+                            Name = "user",
                             NormalizedName = "USER"
                         });
                 });
@@ -146,35 +148,35 @@ namespace WebApplication1.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "10851edb-af4f-429a-8625-b75cc317020a",
+                            Id = "256028ea-6849-441a-91d7-2a45387c02a6",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "96c96336-5854-456f-9261-992b2449a64e",
-                            Email = "adam@wsei.edu.pl",
-                            EmailConfirmed = true,
-                            LockoutEnabled = false,
-                            NormalizedEmail = "adam@wsei.edu.pl",
-                            NormalizedUserName = "ADMIN",
-                            PasswordHash = "AQAAAAIAAYagAAAAEMsV1+9rM17f+E4q3FezD/wYKMl+3rv4/80fTd6W9X+Svc/dghNInvRpyEob2QDLrg==",
-                            PhoneNumberConfirmed = false,
-                            SecurityStamp = "911c4b7c-4b73-4293-9e9b-a02cd5c73bcf",
-                            TwoFactorEnabled = false,
-                            UserName = "admin"
-                        },
-                        new
-                        {
-                            Id = "204184c3-1522-4570-ab8d-b508249ff317",
-                            AccessFailedCount = 0,
-                            ConcurrencyStamp = "73d9c25c-9511-4921-816b-f2f4c31187ad",
+                            ConcurrencyStamp = "ebbe3397-bd21-4819-9235-a724af4be59d",
                             Email = "hubert@wsei.edu.pl",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
-                            NormalizedEmail = "hubert@wsei.edu.pl",
-                            NormalizedUserName = "USER",
-                            PasswordHash = "AQAAAAIAAYagAAAAEBIYwTFWZmFJ2heJv5W/2VkBZReg6G9E8atucrjH+vfVJH2juIIL00gY0My2ZB2QRQ==",
+                            NormalizedEmail = "HUBERT@WSEI.EDU.PL",
+                            NormalizedUserName = "HUBERT",
+                            PasswordHash = "AQAAAAIAAYagAAAAENIFQSf23gVGXJ1kd+NPkhqWoaj4R3z5NI8eFm8xR3V+GArg3HxaOr5co4QUPqtZfA==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "12da0741-13a4-4095-8200-72c23a334594",
+                            SecurityStamp = "43d2f869-414e-450e-a7ee-4cd4f8cbb923",
                             TwoFactorEnabled = false,
-                            UserName = "user"
+                            UserName = "Hubert"
+                        },
+                        new
+                        {
+                            Id = "9e9db1c7-12e2-41f2-b523-61e9949bc4df",
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "4d91bf27-a3cd-44be-92f3-791f7ecb3e51",
+                            Email = "kuba@wsei.edu.pl",
+                            EmailConfirmed = true,
+                            LockoutEnabled = false,
+                            NormalizedEmail = "KUBA@WSEI.EDU.PL",
+                            NormalizedUserName = "KUBA",
+                            PasswordHash = "AQAAAAIAAYagAAAAEKVipGhO+b3XODumpk0vXaXzxU+MSls8MkNF/5CXBdNUtivt79D6h4m04Du30px5Eg==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "371bb6f7-49d6-45a7-a7a7-518d45b83a8d",
+                            TwoFactorEnabled = false,
+                            UserName = "Kuba"
                         });
                 });
 
@@ -240,13 +242,13 @@ namespace WebApplication1.Migrations
                     b.HasData(
                         new
                         {
-                            UserId = "10851edb-af4f-429a-8625-b75cc317020a",
-                            RoleId = "10851edb-af4f-429a-8625-b75cc317020a"
+                            UserId = "256028ea-6849-441a-91d7-2a45387c02a6",
+                            RoleId = "256028ea-6849-441a-91d7-2a45387c02a6"
                         },
                         new
                         {
-                            UserId = "204184c3-1522-4570-ab8d-b508249ff317",
-                            RoleId = "204184c3-1522-4570-ab8d-b508249ff317"
+                            UserId = "9e9db1c7-12e2-41f2-b523-61e9949bc4df",
+                            RoleId = "9e9db1c7-12e2-41f2-b523-61e9949bc4df"
                         });
                 });
 
@@ -318,7 +320,7 @@ namespace WebApplication1.Migrations
                             Id = 1,
                             BirthDate = new DateTime(2000, 10, 10, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Category = 0,
-                            Created = new DateTime(2024, 11, 19, 12, 16, 13, 844, DateTimeKind.Local).AddTicks(9006),
+                            Created = new DateTime(2024, 11, 25, 15, 23, 57, 296, DateTimeKind.Local).AddTicks(627),
                             Email = "adam@.wsei.edu.pl",
                             FirstName = "Adam",
                             LastName = "Nowak",
@@ -330,7 +332,7 @@ namespace WebApplication1.Migrations
                             Id = 2,
                             BirthDate = new DateTime(2000, 11, 10, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Category = 0,
-                            Created = new DateTime(2024, 11, 19, 12, 16, 13, 844, DateTimeKind.Local).AddTicks(9085),
+                            Created = new DateTime(2024, 11, 25, 15, 23, 57, 296, DateTimeKind.Local).AddTicks(667),
                             Email = "ada@.wsei.edu.pl",
                             FirstName = "Ada",
                             LastName = "Fisak",
@@ -366,15 +368,15 @@ namespace WebApplication1.Migrations
                         {
                             Id = 1,
                             Name = "WSEI",
-                            Nip = "1234567890",
-                            Regon = "73276"
+                            Nip = "12423534",
+                            Regon = "74576364"
                         },
                         new
                         {
                             Id = 2,
-                            Name = "POLIBUDA",
-                            Nip = "1234567894210",
-                            Regon = "7322134"
+                            Name = "WEBCON",
+                            Nip = "864363",
+                            Regon = "7254231"
                         });
                 });
 
@@ -467,13 +469,13 @@ namespace WebApplication1.Migrations
                                 {
                                     OrganizationEntityId = 1,
                                     City = "Kraków",
-                                    Street = "Długa 1"
+                                    Street = "św Filipa 18"
                                 },
                                 new
                                 {
                                     OrganizationEntityId = 2,
                                     City = "Kraków",
-                                    Street = "Osiedle Zgody 3"
+                                    Street = "Buncha"
                                 });
                         });
 

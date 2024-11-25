@@ -11,7 +11,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.WebUtilities;
 
-namespace Project.Areas.Identity.Pages.Account
+namespace WebApplication1.Areas.Identity.Pages.Account
 {
     public class ConfirmEmailChangeModel : PageModel
     {

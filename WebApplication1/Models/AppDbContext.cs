@@ -33,96 +33,96 @@ public class AppDbContext: IdentityDbContext<IdentityUser>
         
         string ADMIN_ID = Guid.NewGuid().ToString();
         string USER_ID = Guid.NewGuid().ToString();
-        
-        modelBuilder.Entity<IdentityRole>().HasData(
-            new IdentityRole
-            {
-                Id = ADMIN_ID,
-                Name = "Admin",
-                NormalizedName = "ADMIN"
-            },
-            new IdentityRole
-            {
-                Id = USER_ID,
-                Name = "User",
-                NormalizedName = "USER"
-            }
-        );
 
-        var Admin = new IdentityUser
+        modelBuilder.Entity<IdentityRole>()
+            .HasData(
+                new IdentityRole()
+                {
+                    Id = ADMIN_ID,
+                    Name = "admin",
+                    NormalizedName = "ADMIN",
+                    ConcurrencyStamp = ADMIN_ID
+                },
+                new IdentityRole()
+                {
+                    Id = USER_ID,
+                    Name = "user",
+                    NormalizedName = "USER",
+                    ConcurrencyStamp = USER_ID
+                }
+                );
+
+        var admin = new IdentityUser()
         {
             Id = ADMIN_ID,
-            UserName = "admin",
-            NormalizedUserName = "ADMIN",
-            Email = "adam@wsei.edu.pl",
-            NormalizedEmail = "adam@wsei.edu.pl",
+            UserName = "Hubert",
+            NormalizedUserName = "HUBERT",
+            Email = "hubert@wsei.edu.pl",
+            NormalizedEmail = "HUBERT@WSEI.EDU.PL",
             EmailConfirmed = true,
         };
-        
-        PasswordHasher<IdentityUser> hasher = new PasswordHasher<IdentityUser>();
-        Admin.PasswordHash = hasher.HashPassword(Admin, "1234");
-        
-        modelBuilder.Entity<IdentityUser>().HasData(Admin);
-        
-        var User = new IdentityUser
+
+        var user = new IdentityUser()
         {
             Id = USER_ID,
-            UserName = "user",
-            NormalizedUserName = "USER",
-            Email = "hubert@wsei.edu.pl",
-            NormalizedEmail = "hubert@wsei.edu.pl",
-            EmailConfirmed = true,
+            UserName = "Kuba",
+            NormalizedUserName = "KUBA",
+            Email = "kuba@wsei.edu.pl",
+            NormalizedEmail = "KUBA@WSEI.EDU.PL",
+            EmailConfirmed = true
         };
-        
-        User.PasswordHash = hasher.HashPassword(User, "1234");
-        modelBuilder.Entity<IdentityUser>().HasData(User);
-        
-        modelBuilder.Entity<IdentityUserRole<string>>().HasData(
-            new IdentityUserRole<string>
-            {
-                RoleId = ADMIN_ID,
-                UserId = ADMIN_ID
-            },
-            new IdentityUserRole<string>
-            {
-                RoleId = USER_ID,
-                UserId = USER_ID
-            }
-        );
 
+        PasswordHasher<IdentityUser> hasher = new PasswordHasher<IdentityUser>();
+
+        admin.PasswordHash = hasher.HashPassword(admin, "1234!");
+        user.PasswordHash = hasher.HashPassword(user, "qwerty123!");
+
+        modelBuilder.Entity<IdentityUser>()
+            .HasData(admin, user);
+
+        modelBuilder.Entity<IdentityUserRole<string>>()
+            .HasData(
+                new IdentityUserRole<string>()
+                {
+                    RoleId = ADMIN_ID,
+                    UserId = ADMIN_ID
+                },
+                new IdentityUserRole<string>()
+                {
+                    RoleId = USER_ID,
+                    UserId = USER_ID
+                }
+                );
         
         modelBuilder.Entity<OrganizationEntity>()
             .OwnsOne(o => o.Address)
             .HasData(
-                new { OrganizationEntityId = 1, City = "Kraków", Street = "Długa 1" },
-                new { OrganizationEntityId = 2, City = "Kraków", Street = "Osiedle Zgody 3" }
+                new { OrganizationEntityId = 1, City ="Kraków", Street ="św Filipa 18"},
+                new { OrganizationEntityId = 2, City ="Kraków", Street ="Buncha"}
             );
-        
+
         modelBuilder.Entity<ContactEntity>()
             .HasOne<OrganizationEntity>(c => c.Organization)
             .WithMany(o => o.Contacts)
             .HasForeignKey(c => c.OrganizationId);
 
-
         modelBuilder.Entity<OrganizationEntity>()
             .HasData(
                 new OrganizationEntity()
-        {
-            Id = 1,
-            Regon = "73276",
-            Nip = "1234567890",
-            Name = "WSEI"
-        },
+                {
+                    Id = 1,
+                    Regon = "74576364",
+                    Nip = "12423534",
+                    Name = "WSEI"
+                },
                 new OrganizationEntity()
-                
                 {
                     Id = 2,
-                    Regon = "7322134",
-                    Nip = "1234567894210",
-                    Name = "POLIBUDA"
+                    Regon = "7254231",
+                    Nip = "864363",
+                    Name = "WEBCON"
                 }
             );
-        
         
         modelBuilder.Entity<ContactEntity>()
             .HasData(
@@ -136,7 +136,6 @@ public class AppDbContext: IdentityDbContext<IdentityUser>
                     Email = "adam@.wsei.edu.pl",
                     Created = DateTime.Now,
                     OrganizationId = 1
-                    
                 },
                 new ContactEntity()
                 {
